@@ -4,9 +4,9 @@
 ## 使用方式
 1.引用jar包依赖  
 &lt;dependency&gt;  
-    &lt;groupId&gt;com.wangtoye&lt;/groupId&gt;  
-    &lt;artifactId&gt;feign-hystrix-threadlocal-spring-boot-starter&lt;/artifactId&gt;  
-    &lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;  
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;groupId&gt;com.wangtoye&lt;/groupId&gt;  
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;artifactId&gt;feign-hystrix-threadlocal-spring-boot-starter&lt;/artifactId&gt;  
+&nbsp;&nbsp;&nbsp;&nbsp;&lt;version&gt;0.0.1-SNAPSHOT&lt;/version&gt;  
 &lt;/dependency&gt;  
 2.实现Callable<T>接口或者继承AbstractCallable<T>类  
 作用是实现回调，在子线程中设置需要传入的值。  
