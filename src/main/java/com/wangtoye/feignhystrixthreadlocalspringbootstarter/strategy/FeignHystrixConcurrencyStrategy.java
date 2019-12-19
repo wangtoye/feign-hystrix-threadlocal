@@ -11,8 +11,8 @@ import com.netflix.hystrix.strategy.executionhook.HystrixCommandExecutionHook;
 import com.netflix.hystrix.strategy.metrics.HystrixMetricsPublisher;
 import com.netflix.hystrix.strategy.properties.HystrixPropertiesStrategy;
 import com.netflix.hystrix.strategy.properties.HystrixProperty;
-import com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.warpper.CallableWrapperChain;
-import com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.warpper.FeignHystrixCallableWrapper;
+import com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.wrapper.CallableWrapperChain;
+import com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.wrapper.FeignHystrixCallableWrapper;
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 

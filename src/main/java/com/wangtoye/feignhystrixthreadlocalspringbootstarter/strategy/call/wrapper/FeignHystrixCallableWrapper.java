@@ -1,4 +1,4 @@
-package com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.warpper;
+package com.wangtoye.feignhystrixthreadlocalspringbootstarter.strategy.call.wrapper;
 
 import java.util.concurrent.Callable;
 
